@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"append"
+			],
+			[
+				"p",
+				"println"
+			],
+			[
+				"print",
+				"printWhatever"
+			],
+			[
+				"In",
+				"InterruptedException"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"card",
+				"card_ids"
+			],
+			[
+				"String",
+				"StringBuilder"
+			],
+			[
+				"as",
+				"ascii"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/My_JavaCproject.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/My_JavaCproject.sublime-build",
+					""
+				],
+				[
+					"Packages/User/My_JavaCproject.sublime-build",
+					"run"
+				]
+			],
+			[
+				"Packages/User/My_JavaCproject.sublime-build",
+				"run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/bq/prj/heroku/simple913",
+		"/home/bq/prj/heroku/simple913/src",
+		"/home/bq/prj/heroku/simple913/src/main",
+		"/home/bq/prj/heroku/simple913/src/main/java",
+		"/home/bq/prj/heroku/simple913/src/main/java/my",
+		"/home/bq/prj/heroku/simple913/src/main/java/my/web"
+	],
+	"file_history":
+	[
+		"/home/bq/.xsession-errors",
+		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
+		"/home/bq/.bashrc",
+		"/home/bq/bin/jetty-home-default/bin/jetty.sh",
+		"/home/bq/prj/heroku/simple913/.git/config",
+		"/home/bq/prj/heroku/simple913/CL-java.sublime",
+		"/home/bq/prj/heroku/simple913/CL-javac.sublime",
+		"/home/bq/prj/heroku/simple913/CL-runpost.sublime",
+		"/home/bq/prj/heroku/simple913/CL-runpre.sublime",
+		"/home/bq/prj/heroku/simple913/.git/refs/tags/003.0_one-off_socket-server-for-telnet_WorkLocalOnly",
+		"/home/bq/prj/heroku/simple913/.git/refs/tags/001.0_one-off_message-to-logs",
+		"/home/bq/mega/save/appdata/Office/zimwiki/notes/DevJava/Tools/VCSs/git/aHelp.txt",
+		"/home/bq/mega/save/appdata/Office/zimwiki/notes/DevJava/Tools/VCSs/git/help.txt",
+		"/home/bq/prj/heroku/simple913/system.properties",
+		"/home/bq/prj/heroku/simple913/Procfile",
+		"/home/bq/prj/heroku/simple913/simple913.iml",
+		"/home/bq/prj/heroku/simple913/.gitignore",
+		"/usr/share/kservices5/zip.protocol",
+		"/home/bq/ram/яяя/ark_servicemenu.desktop",
+		"/home/bq/ram/яяя/ark_addtoservicemenu.desktop",
+		"/home/bq/prj/heroku/simple910/src/main/java/my/web/App.java",
+		"/usr/share/kservices5/ark_part.desktop",
+		"/usr/share/kservices5/gzip.protocol",
+		"/usr/share/kservices5/dolphinpart.desktop",
+		"/usr/share/kservices5/bzip.protocol",
+		"/usr/share/kservices5/ar.protocol",
+		"/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/archive.so",
+		"/usr/share/kde4/services/ar.protocol",
+		"/usr/share/kde4/services/gzip.protocol",
+		"/usr/share/kde4/services/zip.protocol",
+		"/usr/share/kservicetypes5/akregator_plugin.desktop",
+		"/home/bq/.config/dolphinrc",
+		"/home/bq/.config/akregatorrc",
+		"/home/bq/.config/arkrc",
+		"/home/bq/prj/heroku/simple911/src/main/java/my/web/App.java",
+		"/home/bq/prj/heroku/simple912/src/main/java/my/web/App.java",
+		"/home/bq/prj/heroku/helloworld/Procfile",
+		"/home/bq/Documents/Тоня",
+		"/home/bq/prj/heroku/simple911/CL-java",
+		"/home/bq/.config/sublime-text-3/Packages/User/My_JavaCmvn.sublime-build",
+		"/home/bq/.config/sublime-text-3/Packages/User/My_JavaCproject.sublime-build",
+		"/home/bq/prj/heroku/simple911/CL-runpost",
+		"/home/bq/prj/heroku/simple911/CL-runpre",
+		"/home/bq/prj/heroku/simple911/CL-env",
+		"/home/bq/prj/heroku/simple911/CL-javac",
+		"/home/bq/prj/heroku/simple910/CL-javac",
+		"/home/bq/prj/heroku/simple910/CL-java",
+		"/home/bq/Documents/src/srcAPI/java.base/java/net/InetAddress.java",
+		"/home/bq/prj/heroku/simple910/.idea/workspace.xml",
+		"/home/bq/prj/heroku/simple911/.idea/workspace.xml",
+		"/home/bq/prj/heroku/simple911/.idea/vcs.xml",
+		"/home/bq/prj/heroku/simple911/.idea/jarRepositories.xml",
+		"/home/bq/prj/heroku/simple911/.idea/encodings.xml",
+		"/home/bq/prj/heroku/simple911/.idea/compiler.xml",
+		"/home/bq/prj/heroku/simple911/.git/info/exclude",
+		"/home/bq/prj/heroku/simple911/.gitignore",
+		"/home/bq/Documents/s/ServletExampl/src/main/java/com/devcolibri/servlet/MainServlet.java",
+		"/home/bq/mega/prj/web/simple/src/main/java/my/web/App.java",
+		"/home/bq/Documents/src/srcAPI/java.base/java/net/Inet4Address.java",
+		"/home/bq/mega/textbooks/Java/arch/Шилдт - Java. The Complete Reference - 11th - 2019/Code_Package/Chap4.lst",
+		"/home/bq/prj/heroku/helloworld/src/main/java/HelloWorld.java",
+		"/home/bq/prj/heroku/simple910/.gitignore",
+		"/home/bq/prj/heroku/simple910/simple910.iml",
+		"/home/bq/mega/prj/web/simple/pom.xml",
+		"/home/bq/prj/heroku/helloworld/pom.xml",
+		"/home/bq/prj/heroku/simple/src/main/java/my/web/App.java",
+		"/home/bq/prj/heroku/simple/CLoptions-java",
+		"/home/bq/prj/heroku/simple/CLoptions-javac",
+		"/home/bq/mega/save/appdata/Studio/sublime-text-3/Packages/User/My_JavaCproject.sublime-build",
+		"/home/bq/prj/heroku/tmp/Bpp.java",
+		"/home/bq/prj/heroku/tmp/App.java",
+		"/home/bq/mega/save/appdata/Office/zimwiki/notes/ZimArch/ArchBooks/ZimCommon/Debian/Tools/snap.txt",
+		"/etc/udev/rules.d/70-snap.core.rules",
+		"/usr/share/bash-completion/completions/portsnap",
+		"/usr/share/applications/org.kde.discover.snap.urlhandler.desktop",
+		"/etc/sane.d/snapscan.conf",
+		"/etc/xdg/autostart/snap-userd-autostart.desktop",
+		"/lib/apparmor/apparmor.systemd",
+		"/etc/apparmor.d/usr.lib.snapd.snap-confine.real",
+		"/etc/apt/sources.list",
+		"/etc/profile.d/bash_completion.sh",
+		"/etc/profile.d/apps-bin-path.sh",
+		"/etc/profile",
+		"/etc/environment.d/90qt-a11y.conf",
+		"/etc/environment.d/90atk-adaptor.conf",
+		"/home/bq/.profile"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getadd",
+			"holder",
+			"Inet4Address",
+			"getBy",
+			"Inet4Address",
+			"getbyaddress",
+			"snap"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 59.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 226.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/My_JavaCproject.sublime-build",
+	"project": "simple913.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 392.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
