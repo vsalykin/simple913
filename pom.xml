@@ -23,11 +23,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-server</artifactId>
-      <version>10.0.1</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.eclipse.jetty</groupId>-->
+<!--      <artifactId>jetty-server</artifactId>-->
+<!--      <version>10.0.1</version>-->
+<!--    </dependency>-->
 <!--    <dependency>-->
 <!--      <groupId>org.eclipse.jetty</groupId>-->
 <!--      <artifactId>jetty-servlet</artifactId>-->
@@ -38,7 +38,12 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
     </dependency>
-<!--    <dependency>-->
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-servlet</artifactId>
+      <version>7.6.0.v20120127</version>
+    </dependency>
+    <!--    <dependency>-->
 <!--      <groupId>org.eclipse.jetty</groupId>-->
 <!--      <artifactId>jetty-parent</artifactId>-->
 <!--      <version>14</version>-->
