@@ -11,6 +11,8 @@ import java.io.IOException;
 
 public class App extends HttpServlet
 {
+    private static int ID = 0;
+
     public static void main(String[] args) {
         My.outPrintln("================================================= " + "My started!004 Jetty");
         int port = Integer.parseInt(System.getenv("PORT"));
@@ -34,7 +36,12 @@ public class App extends HttpServlet
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setCharacterEncoding("UTF-8");
-        resp.getWriter().print("Hi! Хаюшки!!!\n");
+        String s = "<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"/><title>HTTP method GET</title>\n" +
+                "</head>\n<body>\n" +
+                "<h2>Лерчик-колокольчик!</h2>\n" +
+                "<p>P-r accessing /. Reason:\n<pre>    HTTP method GET == " + (++ID) + " ==</pre></p>\n" +
+                "<hr /><i><small>Powered by Jetty&My</small></i>\n</body>\n</html>\n";
+        resp.getWriter().print(s);
     }
 
 }
