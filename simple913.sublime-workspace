@@ -56,7 +56,7 @@
 			],
 			[
 				"Packages/User/My_JavaCproject.sublime-build",
-				"run"
+				""
 			]
 		]
 	],
@@ -93,17 +93,30 @@
 		"/home/bq/prj/heroku/simple913/src/main",
 		"/home/bq/prj/heroku/simple913/src/main/java",
 		"/home/bq/prj/heroku/simple913/src/main/java/my",
-		"/home/bq/prj/heroku/simple913/src/main/java/my/web"
+		"/home/bq/prj/heroku/simple913/src/main/java/my/web",
+		"/home/bq/.config/sublime-text-3/Packages/User"
 	],
 	"file_history":
 	[
-		"/home/bq/.xsession-errors",
+		"/home/bq/prj/heroku/simple913/CL-javac.sublime",
+		"/home/bq/prj/heroku/simple913/Procfile",
+		"/home/bq/.config/sublime-text-3/Packages/User/My_JavaCproject.sublime-build",
+		"/home/bq/prj/heroku/simple913/target/maven-archiver/pom.properties",
 		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
+		"/home/bq/prj/HUBJetty/start.d/deploy.ini",
+		"/home/bq/prj/HUBJetty/start.d/http.ini",
+		"/home/bq/prj/HUBJetty/start.d/server.ini",
+		"/home/bq/mega/save/appdata/Office/zimwiki/notes/DevJava/Tools/VCSs/git/GitHub/GitHubCLI.txt",
+		"/media/bq/DAT/TEMP/Conf_MEG.txt",
 		"/home/bq/.bashrc",
+		"/home/bq/prj/heroku/simple913/.gitignore",
+		"/home/bq/prj/heroku/helloworld/src/main/java/HelloWorld.java",
+		"/home/bq/mega/save/appdata/Office/zimwiki/notes/ZimArch/ArchBooks/ZimCommon/My/Ideas/msl.txt",
+		"/home/bq/prj/heroku/simple913/src/test/java/my/web/AppTest.java",
+		"/home/bq/.xsession-errors",
 		"/home/bq/bin/jetty-home-default/bin/jetty.sh",
 		"/home/bq/prj/heroku/simple913/.git/config",
 		"/home/bq/prj/heroku/simple913/CL-java.sublime",
-		"/home/bq/prj/heroku/simple913/CL-javac.sublime",
 		"/home/bq/prj/heroku/simple913/CL-runpost.sublime",
 		"/home/bq/prj/heroku/simple913/CL-runpre.sublime",
 		"/home/bq/prj/heroku/simple913/.git/refs/tags/003.0_one-off_socket-server-for-telnet_WorkLocalOnly",
@@ -111,9 +124,7 @@
 		"/home/bq/mega/save/appdata/Office/zimwiki/notes/DevJava/Tools/VCSs/git/aHelp.txt",
 		"/home/bq/mega/save/appdata/Office/zimwiki/notes/DevJava/Tools/VCSs/git/help.txt",
 		"/home/bq/prj/heroku/simple913/system.properties",
-		"/home/bq/prj/heroku/simple913/Procfile",
 		"/home/bq/prj/heroku/simple913/simple913.iml",
-		"/home/bq/prj/heroku/simple913/.gitignore",
 		"/usr/share/kservices5/zip.protocol",
 		"/home/bq/ram/яяя/ark_servicemenu.desktop",
 		"/home/bq/ram/яяя/ark_addtoservicemenu.desktop",
@@ -137,7 +148,6 @@
 		"/home/bq/Documents/Тоня",
 		"/home/bq/prj/heroku/simple911/CL-java",
 		"/home/bq/.config/sublime-text-3/Packages/User/My_JavaCmvn.sublime-build",
-		"/home/bq/.config/sublime-text-3/Packages/User/My_JavaCproject.sublime-build",
 		"/home/bq/prj/heroku/simple911/CL-runpost",
 		"/home/bq/prj/heroku/simple911/CL-runpre",
 		"/home/bq/prj/heroku/simple911/CL-env",
@@ -157,7 +167,6 @@
 		"/home/bq/mega/prj/web/simple/src/main/java/my/web/App.java",
 		"/home/bq/Documents/src/srcAPI/java.base/java/net/Inet4Address.java",
 		"/home/bq/mega/textbooks/Java/arch/Шилдт - Java. The Complete Reference - 11th - 2019/Code_Package/Chap4.lst",
-		"/home/bq/prj/heroku/helloworld/src/main/java/HelloWorld.java",
 		"/home/bq/prj/heroku/simple910/.gitignore",
 		"/home/bq/prj/heroku/simple910/simple910.iml",
 		"/home/bq/mega/prj/web/simple/pom.xml",
@@ -262,7 +271,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 226.0
+		"height": 325.0
 	},
 	"output.find_results":
 	{

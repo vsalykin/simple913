@@ -1,27 +1,41 @@
 package my.web;
 
 import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.servlet.ServletContextHandler;
+import org.eclipse.jetty.servlet.ServletHolder;
+
+import java.io.IOException;
 
 public class App extends HttpServlet
 {
     public static void main(String[] args) {
-        int PORT;
-
         My.outPrintln("================================================= " + "My started!004 Jetty");
-
-
-        PORT = Integer.parseInt(System.getenv("PORT"));
-        My.outPrintln("System.getenv(\"PORT\"):" + PORT);
+        int port = Integer.parseInt(System.getenv("PORT"));
+        My.outPrintln("System.getenv(\"PORT\"):" + port);
         try{
-            ;
-//            var server = new Server(PORT);
-//            server.Go();
+            var server = new Server(port);
+            var context = new ServletContextHandler(ServletContextHandler.SESSIONS);
+            context.setContextPath("/");
+            //context.addLocaleEncoding();
+
+            server.setHandler(context);
+            context.addServlet(new ServletHolder(new App()), "/*");
+            server.start();
+            server.join();
         }
         catch(Exception e){My.errPrintln("MyException: " + e.toString());}
         catch(Error e){My.errPrintln("MyError: " + e.toString());}
-        My.outPrintln("================================================= " + "[END]");
+        My.outPrintln("================================================= " + "END");
     }
 
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        resp.setCharacterEncoding("UTF-8");
+        resp.getWriter().print("Hi! Хаюшки!!!\n");
+    }
 
 }
 
