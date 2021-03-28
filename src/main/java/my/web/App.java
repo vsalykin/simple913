@@ -1,14 +1,19 @@
 package my.web;
 
-public class App
+import javax.servlet.http.HttpServlet;
+
+public class App extends HttpServlet
 {
     public static void main(String[] args) {
         int PORT;
 
         My.outPrintln("================================================= " + "My started!004 Jetty");
+
+
         PORT = Integer.parseInt(System.getenv("PORT"));
         My.outPrintln("System.getenv(\"PORT\"):" + PORT);
         try{
+            ;
 //            var server = new Server(PORT);
 //            server.Go();
         }
