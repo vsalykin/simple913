@@ -38,7 +38,7 @@ public class App extends HttpServlet
         resp.setCharacterEncoding("UTF-8");
         String s = "<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"/><title>HTTP method GET</title>\n" +
                 "</head>\n<body>\n" +
-                "<h2>Лерчик-колокольчик!</h2>\n" +
+                "<h2>Лерчик-колокольчик! Раз-два.</h2>\n" +
                 "<p>P-r accessing /. Reason:\n<pre>    HTTP method GET == " + (++ID) + " ==</pre></p>\n" +
                 "<hr /><i><small>Powered by Jetty&My</small></i>\n</body>\n</html>\n";
         resp.getWriter().print(s);
