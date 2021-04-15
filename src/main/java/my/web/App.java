@@ -21,7 +21,6 @@ public class App extends HttpServlet
             var server = new Server(port);
             var context = new ServletContextHandler(ServletContextHandler.SESSIONS);
             context.setContextPath("/");
-            //context.addLocaleEncoding();
 
             server.setHandler(context);
             context.addServlet(new ServletHolder(new App()), "/*");
