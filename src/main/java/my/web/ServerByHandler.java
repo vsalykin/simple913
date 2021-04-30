@@ -22,7 +22,7 @@ public class ServerByHandler {
             response.setContentType("text/html;charset=utf-8");
             response.setStatus(HttpServletResponse.SC_OK);
             baseRequest.setHandled(true);
-            response.getWriter().println("<h1>ServerByHandler (2)</h1>");
+            response.getWriter().println("<h1>ServerByHandler (3)</h1>");
         }
     }
 
