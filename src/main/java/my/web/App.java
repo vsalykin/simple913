@@ -1,33 +1,27 @@
 package my.web;
-
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import org.eclipse.jetty.server.Request;
+// $ mvn clean compile && heroku local:start >txt
 import org.eclipse.jetty.server.Server;
-import org.eclipse.jetty.server.handler.AbstractHandler;
 
-import java.io.IOException;
+public class App {
 
-public class App
-{
-    public static void main( String[] args ) throws Exception {
+    public static void main(String[] args)  {
+        MyServer();
+    }
+    private static void MyServer(){
         int port = Integer.parseInt(System.getenv("PORT"));
         System.out.println( "[MY-INFO] ================================ Starting Jetty-server on port: " + port );
-        Server server = new Server(port);
-        server.setHandler(new MyHandler());
-        server.start();
-        server.join();
-    }
+        Server server = null;
+        try {
+            //server = ServerByServletJakarta.GetServer(port);
+            server = ServerByHandler.GetServer(port);
+            //server = ServerByServletJavax.GetServer(port); //pom: jetty-server - rem, jetty-servlet - ver7.6.0...; mvn clean; idea: other Server - rem, (invalidate)
 
-    public static class MyHandler extends AbstractHandler {
-        @Override
-        public void handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response) throws IOException {
-            response.setContentType("text/html;charset=utf-8");
-            response.setStatus(HttpServletResponse.SC_OK);
-            baseRequest.setHandled(true);
-            response.getWriter().println("<h1>Bu-bu-bu</h1>");
+            server.start();
+            server.join();
         }
+        catch(Exception e){System.out.println( "[MY-INFO] MyException: " + e.toString());}
+        catch(Error e){System.out.println( "[MY-INFO] MyError: " + e.toString());}
+        System.out.println( "[MY-INFO] ================================ " + "END");
     }
-
 
 }

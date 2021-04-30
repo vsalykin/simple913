@@ -43,7 +43,7 @@
 			"file": "src/main/java/my/web/App.java",
 			"settings":
 			{
-				"buffer_size": 1148,
+				"buffer_size": 1220,
 				"line_ending": "Unix"
 			}
 		}
@@ -106,11 +106,13 @@
 	],
 	"file_history":
 	[
+		"/home/bq/prj/heroku/simple913/txt",
 		"/home/bq/ram/simple913/pom.xml",
+		"/home/bq/ram/simple913/src/main/java/my/web/App.java",
+		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
 		"/home/bq/prj/heroku/simple913/Procfile",
 		"/home/bq/prj/heroku/simple913/.idea/.gitignore",
 		"/home/bq/prj/heroku/simple913/simple913.iml",
-		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
 		"/home/bq/prj/heroku/simple913/.idea/vcs.xml",
 		"/home/bq/prj/heroku/simple913/.idea/workspace.xml",
 		"/home/bq/prj/heroku/simple913/.gitignore_BACKUP_4196",
@@ -231,13 +233,11 @@
 		"/etc/xdg/autostart/snap-userd-autostart.desktop",
 		"/lib/apparmor/apparmor.systemd",
 		"/etc/apparmor.d/usr.lib.snapd.snap-confine.real",
-		"/etc/apt/sources.list",
-		"/etc/profile.d/bash_completion.sh",
-		"/etc/profile.d/apps-bin-path.sh"
+		"/etc/apt/sources.list"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 59.0
 	},
 	"find_in_files":
 	{
@@ -251,6 +251,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Amigo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -277,7 +278,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1148,
+						"buffer_size": 1220,
 						"regions":
 						{
 						},
@@ -341,7 +342,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/My_JavaC.sublime-build",
+	"pinned_build_system": "Packages/User/My_JavaCproject.sublime-build",
 	"project": "SUBL.sublime-project",
 	"replace":
 	{
