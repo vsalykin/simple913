@@ -39,16 +39,8 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/main/java/my/web/App.java",
-			"settings":
-			{
-				"buffer_size": 1220,
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "",
+	"build_system": "Packages/User/My_JavaCproject.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -64,11 +56,11 @@
 			],
 			[
 				"Packages/User/My_JavaCproject.sublime-build",
-				""
+				"run"
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "run",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -106,10 +98,10 @@
 	],
 	"file_history":
 	[
+		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
 		"/home/bq/prj/heroku/simple913/txt",
 		"/home/bq/ram/simple913/pom.xml",
 		"/home/bq/ram/simple913/src/main/java/my/web/App.java",
-		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
 		"/home/bq/prj/heroku/simple913/Procfile",
 		"/home/bq/prj/heroku/simple913/.idea/.gitignore",
 		"/home/bq/prj/heroku/simple913/simple913.iml",
@@ -237,7 +229,7 @@
 	],
 	"find":
 	{
-		"height": 59.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -269,37 +261,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/main/java/my/web/App.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
