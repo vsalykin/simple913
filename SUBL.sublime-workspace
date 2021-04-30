@@ -60,7 +60,7 @@
 			]
 		]
 	],
-	"build_varint": "run",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -98,11 +98,12 @@
 	],
 	"file_history":
 	[
+		"/home/bq/prj/heroku/simple913/system.properties",
+		"/home/bq/prj/heroku/simple913/Procfile",
 		"/home/bq/prj/heroku/simple913/src/main/java/my/web/App.java",
 		"/home/bq/prj/heroku/simple913/txt",
 		"/home/bq/ram/simple913/pom.xml",
 		"/home/bq/ram/simple913/src/main/java/my/web/App.java",
-		"/home/bq/prj/heroku/simple913/Procfile",
 		"/home/bq/prj/heroku/simple913/.idea/.gitignore",
 		"/home/bq/prj/heroku/simple913/simple913.iml",
 		"/home/bq/prj/heroku/simple913/.idea/vcs.xml",
@@ -118,7 +119,6 @@
 		"/home/bq/prj/heroku/simple913/.gitignore",
 		"/home/bq/prj/heroku/simple913/pom.xml",
 		"/home/bq/prj/heroku/simple913/txt1",
-		"/home/bq/prj/heroku/simple913/system.properties",
 		"/home/bq/Documents/src/srcAPI/java.base/java/io/InputStream.java",
 		"/home/bq/Documents/src/srcAPI/java.base/java/util/ArrayList.java",
 		"/home/bq/Documents/src/srcAPI/java.base/java/util/function/Consumer.java",
